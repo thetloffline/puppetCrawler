@@ -81,28 +81,3 @@ async function crawlAround(url) {
   await crawlAround("https://boardgamegeek.com/geeklist/259955/essen-2019-no-shipping-auction-list-post-your-own/page/1")
   process.exit(1)
 })()
-
-
-
-/* 
-const items = await page.$$(".fl");
-const ratingSpan = await page.$$(".fl .sf");
-const itemsLink= await page.$$(".fl a");
-
-
-for (let i = 0; i < items.length; i++) {
-  const itemName = await (await itemsLink[i].getProperty('innerText')).jsonValue();
-  const itemHref = await (await itemsLink[i].getProperty('href'));
-  const itemRating = await (await ratingSpan[i].getProperty('innerText')).jsonValue();;
-  if  (itemHref.search('geeklist'))  {
-    console.log('geeklist:::::::')
-  }
-  console.log('itemName: ', itemName);
-  console.log('itemHref: ', itemHref);
-  console.log('itemRating: ', itemRating);
-}
-
-
-
-/*console.log(await page.content());*/
-
