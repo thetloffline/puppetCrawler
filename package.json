@@ -1,0 +1,22 @@
+{
+  "name": "puppetcrawler",
+  "version": "1.0.0",
+  "description": "scraping for boardgames",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetloffline/puppetCrawler.git"
+  },
+  "author": "toomas thetloff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thetloffline/puppetCrawler/issues"
+  },
+  "homepage": "https://github.com/thetloffline/puppetCrawler#readme",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
